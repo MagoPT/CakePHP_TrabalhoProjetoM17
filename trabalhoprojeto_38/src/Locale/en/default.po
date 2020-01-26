@@ -1,0 +1,666 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2020-01-26 10:33+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/ContratoController.php:29
+msgid "Contrato criado com sucesso."
+msgstr "Contract sucessfully created"
+
+#: Controller/ContratoController.php:32
+msgid "Ocorreu um erro ao criar o contrato."
+msgstr "Something as gone wrong while creating the contract"
+
+#: Controller/ContratoController.php:42
+msgid "O Contrato foi atualizado."
+msgstr "Cotract Updated"
+
+#: Controller/ContratoController.php:45
+msgid "O contrato não pôde ser atualizado."
+msgstr "Cant update the contract"
+
+#: Controller/ContratoController.php:56
+msgid "O contrato com id: {0} foi apagado."
+msgstr "The contract with the id {0} as been deleted"
+
+#: Controller/EmpresaController.php:25
+msgid "Empresa criada com sucesso."
+msgstr "Company created with sucess"
+
+#: Controller/EmpresaController.php:28
+msgid "Ocorreu um erro ao criar o Empresa."
+msgstr "Something as gone wrong while creating the company"
+
+#: Controller/EmpresaController.php:38
+msgid "A empresa foi atualizado."
+msgstr "Company updated"
+
+#: Controller/EmpresaController.php:41
+msgid "A empresa não pôde ser atualizado."
+msgstr "Cant update the company"
+
+#: Controller/EmpresaController.php:52
+msgid "A empresa com id: {0} foi apagado."
+msgstr "The company with the id {0} as been deleted"
+
+#: Controller/RegulacaoController.php:25
+msgid "Regulacao criada com sucesso."
+msgstr "Regulation created with sucess"
+
+#: Controller/RegulacaoController.php:28
+msgid "Ocorreu um erro ao criar o Regulacao."
+msgstr "Something as gone wrong while creating the Regulation"
+
+#: Controller/RegulacaoController.php:38
+msgid "O regulamento foi atualizado."
+msgstr "Regulation sucessfully updated"
+
+#: Controller/RegulacaoController.php:41
+msgid "Seu artigo não pôde ser atualizado."
+msgstr "Can't update the regulation"
+
+#: Controller/RegulacaoController.php:52
+msgid "O regulamento com id: {0} foi apagado."
+msgstr "The regulation with id {0} as been deleted"
+
+#: Controller/UtilizadorController.php:50
+msgid "Utilizador criado com sucesso."
+msgstr "User created with suces"
+
+#: Controller/UtilizadorController.php:53
+msgid "Ocorreu um erro ao criar o utilizador."
+msgstr "Something as gone wrong while creating the User"
+
+#: Controller/UtilizadorController.php:63
+msgid "O Utilizador foi atualizado."
+msgstr "User Updated"
+
+#: Controller/UtilizadorController.php:66
+msgid "O Utilizador não pôde ser atualizado."
+msgstr "Cant update the user"
+
+#: Controller/UtilizadorController.php:77
+msgid "O utilizador com id: {0} foi apagado."
+msgstr "User with id: {0} as been deleted"
+
+#: Controller/webgrafiacontroller.php:25
+msgid "Link criado com sucesso."
+msgstr "Link created with sucess"
+
+#: Controller/webgrafiacontroller.php:28
+msgid "Ocorreu um erro ao criar o link."
+msgstr "Something as gone wrong while creating the link"
+
+#: Controller/webgrafiacontroller.php:38
+msgid "O link foi atualizado."
+msgstr "Link as been updated"
+
+#: Controller/webgrafiacontroller.php:41
+msgid "O link não pôde ser atualizado."
+msgstr "Can't update the link"
+
+#: Controller/webgrafiacontroller.php:52
+msgid "O link com id: {0} foi apagado."
+msgstr "The link with id: {0} as been deleted"
+
+#: Template/Contrato/add.ctp:2
+msgid "Criar empresa"
+msgstr "Create contract"
+
+#: Template/Utilizador/add.ctp:10
+msgid "Salvar Utilizador"
+msgstr "Save User"
+
+#: Template/Contrato/add.ctp:11
+msgid "Salvar Contracto"
+msgstr "Save Contract"
+
+#: Template/Empresa/edit.ctp:9
+msgid "Guardar empresa"
+msgstr "Save Company"
+
+#: Template/Contrato/edit.ctp:9
+msgid "Guardar contracto"
+msgstr "Save Contract"
+
+#: Template/Contrato/index.ctp:2
+msgid "Contrato:"
+msgstr "Contract"
+
+#: Template/Contrato/index.ctp:12
+#: Template/Empresa/index.ctp:11
+#: Template/Webgrafia/index.ctp:11
+msgid "Editar"
+msgstr "Edit"
+
+#: Template/Contrato/index.ctp:13
+#: Template/Empresa/index.ctp:12
+#: Template/Webgrafia/index.ctp:12
+msgid "Eliminar"
+msgstr "Delete"
+
+#: Template/Contrato/index.ctp:48
+#: Template/Empresa/index.ctp:44
+#: Template/Imagens/index.ctp:21
+#: Template/Regulacao/index.ctp:44
+#: Template/Utilizador/index.ctp:44
+#: Template/Webgrafia/index.ctp:42
+msgid "Primeira"
+msgstr "First"
+
+#: Template/Contrato/index.ctp:49
+#: Template/Empresa/index.ctp:45
+#: Template/Imagens/index.ctp:22
+#: Template/Regulacao/index.ctp:45
+#: Template/Utilizador/index.ctp:45
+#: Template/Webgrafia/index.ctp:43
+msgid "anterior"
+msgstr "previous"
+
+#: Template/Contrato/index.ctp:51
+#: Template/Empresa/index.ctp:47
+#: Template/Imagens/index.ctp:24
+#: Template/Regulacao/index.ctp:47
+#: Template/Utilizador/index.ctp:47
+#: Template/Webgrafia/index.ctp:45
+msgid "proxima"
+msgstr "next"
+
+#: Template/Contrato/index.ctp:52
+#: Template/Empresa/index.ctp:48
+#: Template/Imagens/index.ctp:25
+#: Template/Regulacao/index.ctp:48
+#: Template/Utilizador/index.ctp:48
+#: Template/Webgrafia/index.ctp:46
+msgid "ultima"
+msgstr "last"
+
+#: Template/Contrato/view.ctp:4
+msgid "ID Utilizador:"
+msgstr "User ID:"
+
+#: Template/Contrato/view.ctp:5
+msgid "Id Site:"
+msgstr "Site ID:"
+
+#: Template/Contrato/view.ctp:6
+msgid "Descrição:"
+msgstr "Description:"
+
+#: Template/Contrato/view.ctp:7
+#: Template/Empresa/view.ctp:7
+#: Template/Regulacao/view.ctp:7
+#: Template/Utilizador/View.ctp:36
+#: Template/Webgrafia/view.ctp:7
+msgid "Voltar"
+msgstr "Back"
+
+#: Template/Element/time.ctp:3
+msgid "Dia: "
+msgstr "Day: "
+
+#: Template/Element/time.ctp:5
+msgid "Hora: "
+msgstr "Hour: "
+
+#: Template/Element/ultimos_contratos.ctp:6
+msgid "Ultimos"
+msgstr "Previous "
+
+#: Template/Element/ultimos_contratos.ctp:6
+msgid "Contratos"
+msgstr " contracts"
+
+#: Template/Empresa/add.ctp:2
+msgid "Criar Empresa"
+msgstr "Create Company"
+
+#: Template/Empresa/add.ctp:11
+msgid "Salvar Empresa"
+msgstr "Save Company"
+
+#: Template/Empresa/index.ctp:2
+msgid "Empresas"
+msgstr "Company's"
+
+#: Template/Empresa/view.ctp:4
+#: Template/Utilizador/View.ctp:27
+msgid "Email:"
+msgstr "Mail:"
+
+#: Template/Empresa/view.ctp:5
+#: Template/Webgrafia/view.ctp:5
+msgid "Site:"
+msgstr ""
+
+#: Template/Imagens/index.ctp:2
+msgid "Imagens:"
+msgstr "Images:"
+
+#: Template/Layout/default.ctp:51
+msgid "Regulações"
+msgstr "Regulations"
+
+#: Template/Layout/default.ctp:52
+msgid "Contrato"
+msgstr "Contract"
+
+#: Template/Layout/default.ctp:67
+msgid "Linguagem"
+msgstr "Language"
+
+#: Template/Layout/error.ctp:35
+#: Template/Error/error400.ctp:36
+#: Template/Error/error400.php:36
+#: Template/Error/error500.ctp:41
+#: Template/Error/error500.php:40
+msgid "Error"
+msgstr ""
+
+#: Template/Layout/error.ctp:43
+msgid "Back"
+msgstr ""
+
+#: Template/Regulacao/add.ctp:2
+msgid "Criar regulação:"
+msgstr "Create regulation:"
+
+#: Template/Regulacao/add.ctp:10
+msgid "Salvar Regulação"
+msgstr "Save regulation"
+
+#: Template/Regulacao/edit.ctp:7
+#: Template/Regulacao/view.ctp:4
+msgid "Local efetivo:"
+msgstr "Efective place: "
+
+#: Template/Regulacao/edit.ctp:8
+#: Template/Regulacao/view.ctp:5
+msgid "Regulamento:"
+msgstr "Regulation:"
+
+#: Template/Regulacao/edit.ctp:9
+msgid "Guardar regulação"
+msgstr "Save regulation"
+
+#: Template/Regulacao/index.ctp:2
+msgid "Regulações:"
+msgstr "Regulations:"
+
+#: Template/Regulacao/index.ctp:11
+msgid "Editar:"
+msgstr "Edit"
+
+#: Template/Regulacao/index.ctp:12
+msgid "Eliminar:"
+msgstr "Delete:"
+
+#: Template/Regulacao/view.ctp:6
+#: Template/Utilizador/View.ctp:29
+#: Template/Webgrafia/view.ctp:6
+msgid "ID:"
+msgstr ""
+
+#: Template/Utilizador/View.ctp:28
+msgid "Idade:"
+msgstr "Age:"
+
+#: Template/Utilizador/View.ctp:37
+msgid "Upload foto"
+msgstr "Upload image"
+
+#: Template/Utilizador/edit.ctp:8
+msgid "Guardar utilizador"
+msgstr "Save user"
+
+#: Template/Utilizador/index.ctp:2
+msgid "Utilizadores"
+msgstr "Users"
+
+#: Template/Utilizador/login.ctp:6
+msgid "Insira o nome de utilizador e Palavra-Passe "
+msgstr "Inser username and password"
+
+#: Template/Utilizador/login.ctp:10
+msgid "Login"
+msgstr ""
+
+#: Template/Webgrafia/add.ctp:2
+msgid "Adicionar Link:"
+msgstr "Add Link:"
+
+#: Template/Webgrafia/add.ctp:9
+msgid "Salvar Site"
+msgstr "Save site"
+
+#: Template/Webgrafia/edit.ctp:8
+msgid "Guardar link"
+msgstr "Save link"
+
+#: Template/Webgrafia/index.ctp:3
+msgid "Webgrafia"
+msgstr ""
+
+#: Template/Webgrafia/view.ctp:4
+msgid "Fonte:"
+msgstr "Source:"
+
+#: View/Helper/PaginatorHelper.php:1271
+msgid "View"
+msgstr ""
+
+#: Template/Error/error400.ctp:37
+#: Template/Error/error400.php:37
+msgid "The requested address {0} was not found on this server."
+msgstr ""
+
+#: Template/Error/error500.ctp:39
+#: Template/Error/error500.php:38
+msgid "An Internal Error Has Occurred"
+msgstr ""
+
+#: Controller/Component/AuthComponent.php:500
+msgid "You are not authorized to access that location."
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:181
+#: Http/Middleware/CsrfProtectionMiddleware.php:228
+msgid "Missing CSRF token cookie"
+msgstr ""
+
+#: Controller/Component/CsrfComponent.php:185
+#: Http/Middleware/CsrfProtectionMiddleware.php:232
+msgid "CSRF token mismatch."
+msgstr ""
+
+#: Error/ExceptionRenderer.php:301
+msgid "Not Found"
+msgstr ""
+
+#: Error/ExceptionRenderer.php:303
+msgid "An Internal Error Has Occurred."
+msgstr ""
+
+#: Http/Response.php:2666
+msgid "The requested file contains `..` and will not be read."
+msgstr ""
+
+#: Http/Response.php:2687
+msgid "The requested file was not found"
+msgstr ""
+
+#: I18n/Number.php:89
+msgid "{0,number,#,###.##} KB"
+msgstr ""
+
+#: I18n/Number.php:91
+msgid "{0,number,#,###.##} MB"
+msgstr ""
+
+#: I18n/Number.php:93
+msgid "{0,number,#,###.##} GB"
+msgstr ""
+
+#: I18n/Number.php:95
+msgid "{0,number,#,###.##} TB"
+msgstr ""
+
+#: I18n/Number.php:87
+msgid "{0,number,integer} Byte"
+msgid_plural "{0,number,integer} Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} from now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:80
+msgid "{0} ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} after"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:83
+msgid "{0} before"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:114
+msgid "just now"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:151
+msgid "about a second ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:152
+msgid "about a minute ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:153
+msgid "about an hour ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:154
+#: I18n/RelativeTimeFormatter.php:332
+msgid "about a day ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:155
+#: I18n/RelativeTimeFormatter.php:333
+msgid "about a week ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:156
+#: I18n/RelativeTimeFormatter.php:334
+msgid "about a month ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:157
+#: I18n/RelativeTimeFormatter.php:335
+msgid "about a year ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:168
+msgid "in about a second"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:169
+msgid "in about a minute"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:170
+msgid "in about an hour"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:171
+#: I18n/RelativeTimeFormatter.php:346
+msgid "in about a day"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:172
+#: I18n/RelativeTimeFormatter.php:347
+msgid "in about a week"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:173
+#: I18n/RelativeTimeFormatter.php:348
+msgid "in about a month"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:174
+#: I18n/RelativeTimeFormatter.php:349
+msgid "in about a year"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:304
+msgid "today"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:370
+msgid "%s ago"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:371
+msgid "on %s"
+msgstr ""
+
+#: I18n/RelativeTimeFormatter.php:47
+#: I18n/RelativeTimeFormatter.php:126
+#: I18n/RelativeTimeFormatter.php:316
+msgid "{0} year"
+msgid_plural "{0} years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:51
+#: I18n/RelativeTimeFormatter.php:129
+#: I18n/RelativeTimeFormatter.php:319
+msgid "{0} month"
+msgid_plural "{0} months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:57
+#: I18n/RelativeTimeFormatter.php:132
+#: I18n/RelativeTimeFormatter.php:322
+msgid "{0} week"
+msgid_plural "{0} weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:59
+#: I18n/RelativeTimeFormatter.php:135
+#: I18n/RelativeTimeFormatter.php:325
+msgid "{0} day"
+msgid_plural "{0} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:64
+#: I18n/RelativeTimeFormatter.php:138
+msgid "{0} hour"
+msgid_plural "{0} hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:68
+#: I18n/RelativeTimeFormatter.php:141
+msgid "{0} minute"
+msgid_plural "{0} minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: I18n/RelativeTimeFormatter.php:72
+#: I18n/RelativeTimeFormatter.php:144
+msgid "{0} second"
+msgid_plural "{0} seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ORM/RulesChecker.php:56
+msgid "This value is already in use"
+msgstr ""
+
+#: ORM/RulesChecker.php:103
+msgid "This value does not exist"
+msgstr ""
+
+#: ORM/RulesChecker.php:127
+msgid "The count does not match {0}{1}"
+msgstr ""
+
+#: Utility/Text.php:934
+msgid "and"
+msgstr ""
+
+#: Validation/Validator.php:2437
+#: View/Form/ArrayContext.php:226
+msgid "This field is required"
+msgstr ""
+
+#: Validation/Validator.php:2459
+msgid "This field cannot be left empty"
+msgstr ""
+
+#: Validation/Validator.php:2610
+msgid "The provided value is invalid"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1108
+msgid "Edit {0}"
+msgstr ""
+
+#: View/Helper/FormHelper.php:1110
+msgid "New {0}"
+msgstr ""
+
+#: View/Helper/FormHelper.php:2030
+msgid "Submit"
+msgstr ""
+
+#: View/Helper/HtmlHelper.php:818
+msgid "Home"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:539
+msgid "January"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:540
+msgid "February"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:541
+msgid "March"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:542
+msgid "April"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:543
+msgid "May"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:544
+msgid "June"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:545
+msgid "July"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:546
+msgid "August"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:547
+msgid "September"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:548
+msgid "October"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:549
+msgid "November"
+msgstr ""
+
+#: View/Widget/DateTimeWidget.php:550
+msgid "December"
+msgstr ""
+
