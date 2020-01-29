@@ -43,7 +43,7 @@ class RegulacaoController extends AppController //Controlador das Regulações
                 $this->Flash->success(__('O regulamento foi atualizado.'));
                 return $this->redirect(['action' => 'index']);
             }
-            $this->Flash->error(__('Seu artigo não pôde ser atualizado.'));
+            $this->Flash->error(__('A regulação não pôde ser atualizado.'));
         }
 
         $this->set('regulacao', $regulacao);

@@ -1,13 +1,13 @@
 <table style="content-align: right">
 
 <h1><?= __('Webgrafia')?></h1>
-<p><?= $this->Html->link("Adicionar link", ['action' => 'add']) ?></p>
+<p><?= $this->Html->link(__("Adicionar link"), ['action' => 'add']) ?></p>
 </table>
     <table>
     <tr>
-        <?php echo'<th>'.$this->Paginator->sort('id_webgrafia',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('site',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('fonte',null,['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('id_webgrafia',__('ID webgrafia'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('site',__('Site'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('fonte',__('Fonte'),['direction' =>'desc']).'</th>';?>
         <th><?= __('Editar')?></th>
         <th><?= __('Eliminar')?></th>
     </tr>
@@ -25,13 +25,13 @@
             </td>
 
             <td>
-                <?= $this->Html->link('Editar', ['action' => 'edit', $link->id_webgrafia]) //Onde iremos editar o código?>
+                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $link->id_webgrafia]) //Onde iremos editar o código?>
             </td>
             <td>
                 <?= $this->Form->postLink(
-                    'Apagar',
+                    __('Apagar'),
                     ['action' => 'delete', $link->id_webgrafia],
-                    ['confirm' => 'Deseja apagar o link selecionado?'])
+                    ['confirm' => __('Deseja apagar o link selecionado?')])
                 ?>
             </td>
         </tr>
@@ -45,7 +45,7 @@
         <?= $this->Paginator->next(__('proxima') . ' >') ?>
         <?= $this->Paginator->last(__('ultima') . ' >>') ?>
     </ul>
-    <p><?= $this->Paginator->counter('Pagina {{page}} de {{pages}}, mostrando {{current}} registos de {{count}} totais, desde o registe {{start}}, ate ao {{end}}') ?></p>
+    <p><?= $this->Paginator->counter(__('Pagina {{page}} de {{pages}}, mostrando {{current}} registos de {{count}} totais, desde o registe {{start}}, ate ao {{end}}')) ?></p>
 </div>
 <?=$this -> element('footer',[
     'Page' => 'WebGrafia',

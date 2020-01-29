@@ -14,6 +14,7 @@
  */
 use Cake\I18n\I18n; //Import do Padrão para as traduções
 $cakeDescription = 'CakePHP: the rapid development php framework';
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -66,7 +67,13 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         <li class="nav-item dropdown no-arrow" role="presentation">
                             <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" data-toggle="dropdown" aria-expanded="false" href="#"><span class="d-none d-lg-inline mr-2 text-gray-600 small"><?= __('Linguagem')?></span></a>
                                 <div class="dropdown-menu shadow dropdown-menu-right animated--grow-in" role="menu">
-                                   <a class="dropdown-item" role="presentation" id="pt"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>PT</a><a class="dropdown-item" role="presentation" id="en"><i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>EN</a></div>
+                                    <?php
+                                    if($this->request->session()->read('linguagem') == 'en'){
+                                        echo $this->Html->link(__('Portuguese'), ['action' => '../language/index', 'pt']);
+                                    } else {
+                                            echo $this->Html->link(__('Inglês'), ['action' => '../language/index', 'en']);
+                                } ?>
+
                             </div>
                         </li>
                     </ul>
@@ -83,19 +90,11 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
                 </table>
             </div>
-
+            <?=$this -> element('donation')?>
     <script src="https://duckidentity.com/profile-empresa/dashboard/assets/js/jquery.min.js"></script>
     <script src="https://duckidentity.com/profile-empresa/dashboard/assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
     <script src="https://duckidentity.com/profile-empresa/dashboard/assets/js/theme.js"></script>
-            <script>
-                $( "#pt" ).click(function() {
-                    alert( "Linguagem alterada para PT" );
-                });
-                $( "#en" ).click(function() {
-                    alert( "Linguagem alterada para EN" );
-                });
-            </script>
 </body>
 
 </html>

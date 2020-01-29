@@ -1,14 +1,14 @@
 <table style="content-align: right">
 <h1><?= __('Contrato:')?></h1>
-<p><?= $this->Html->link("Adicionar contrato", ['action' => 'add']) ?></p>
+<p><?= $this->Html->link(__("Adicionar contrato"), ['action' => 'add']) ?></p>
 </table>
 <table>
     <tr>
-        <?php echo'<th>'.$this->Paginator->sort('id_contrato',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('id_utilizador',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('id_empresa',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('id_regulacao',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('descricao',null,['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('id_contrato',__('ID Contracto'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('id_utilizador',__('ID utilizador'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('id_empresa',__('ID empresa'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('id_regulacao',__('ID Regulação'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('descricao',__('Descrição'),['direction' =>'desc']).'</th>';?>
         <th><?= __('Editar')?></th>
         <th><?= __('Eliminar')?></th>
     </tr>
@@ -31,11 +31,11 @@
                 <?= $contrato->descricao ?>
             </td>
             <td>
-                <?= $this->Html->link('Editar', ['action' => 'edit', $contrato->id_contrato]) //Onde iremos editar o código?>
+                <?= $this->Html->link(__('Editar'), ['action' => 'edit', $contrato->id_contrato]) //Onde iremos editar o código?>
             </td>
             <td>
                 <?= $this->Form->postLink(
-                    'Apagar',
+                    __('Apagar'),
                     ['action' => 'delete', $contrato->id_contrato],
                     ['confirm' => 'Deseja apagar o utilizador selecionado?'])
                 ?>
@@ -51,5 +51,5 @@
         <?= $this->Paginator->next(__('proxima') . ' >') ?>
         <?= $this->Paginator->last(__('ultima') . ' >>') ?>
     </ul>
-    <p><?= $this->Paginator->counter('Pagina {{page}} de {{pages}}, mostrando {{current}} registos de {{count}} totais, desde o registe {{start}}, ate ao {{end}}') ?></p>
+    <p><?= $this->Paginator->counter(__('Pagina {{page}} de {{pages}}, mostrando {{current}} registos de {{count}} totais, desde o registe {{start}}, ate ao {{end}}')) ?></p>
 </div>

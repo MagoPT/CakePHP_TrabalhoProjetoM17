@@ -14,7 +14,7 @@ class webgrafiacontroller extends AppController //Controlador do Utilizador
     public function index() //Land Page da webgráfia onde será listado os registo existentes na tabela
     {
         $this->Webgrafia->recursive=0;
-        $this->paginate=array('limit' =>10); //Limite máximo de registos mostrados por página
+        $this->paginate=array('limit' =>5); //Limite máximo de registos mostrados por página
         $this->set('web', $this->paginate());
     }
     public function view($id) //Visualização de um registo específico

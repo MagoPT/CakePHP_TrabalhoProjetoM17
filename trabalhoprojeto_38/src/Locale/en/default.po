@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
-"POT-Creation-Date: 2020-01-26 10:33+0000\n"
+"POT-Creation-Date: 2020-01-27 20:30+0000\n"
 "PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
 "Last-Translator: NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
@@ -14,140 +14,173 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: Controller/ContratoController.php:29
+#: Controller/ContratoController.php:36
 msgid "Contrato criado com sucesso."
 msgstr "Contract sucessfully created"
 
-#: Controller/ContratoController.php:32
+#: Controller/ContratoController.php:39
 msgid "Ocorreu um erro ao criar o contrato."
-msgstr "Something as gone wrong while creating the contract"
+msgstr "Opps, something as gone wrong while creating the contract"
 
-#: Controller/ContratoController.php:42
+#: Controller/ContratoController.php:49
 msgid "O Contrato foi atualizado."
-msgstr "Cotract Updated"
+msgstr "The contract as been updated"
 
-#: Controller/ContratoController.php:45
+#: Controller/ContratoController.php:52
 msgid "O contrato não pôde ser atualizado."
-msgstr "Cant update the contract"
+msgstr "Can't Update the contract"
 
-#: Controller/ContratoController.php:56
+#: Controller/ContratoController.php:63
 msgid "O contrato com id: {0} foi apagado."
-msgstr "The contract with the id {0} as been deleted"
+msgstr "Contract with id: {0} as been deleted"
 
-#: Controller/EmpresaController.php:25
+#: Controller/EmpresaController.php:31
 msgid "Empresa criada com sucesso."
-msgstr "Company created with sucess"
+msgstr "Company sucessfully created"
 
-#: Controller/EmpresaController.php:28
+#: Controller/EmpresaController.php:34
 msgid "Ocorreu um erro ao criar o Empresa."
-msgstr "Something as gone wrong while creating the company"
+msgstr "Opps, something as gone wrong while creating the company"
 
-#: Controller/EmpresaController.php:38
+#: Controller/EmpresaController.php:44
 msgid "A empresa foi atualizado."
 msgstr "Company updated"
 
-#: Controller/EmpresaController.php:41
+#: Controller/EmpresaController.php:47
 msgid "A empresa não pôde ser atualizado."
-msgstr "Cant update the company"
+msgstr "Can't update the company"
 
-#: Controller/EmpresaController.php:52
+#: Controller/EmpresaController.php:58
 msgid "A empresa com id: {0} foi apagado."
-msgstr "The company with the id {0} as been deleted"
+msgstr "The company with id: {0} as been deleted"
 
-#: Controller/RegulacaoController.php:25
+#: Controller/RegulacaoController.php:30
 msgid "Regulacao criada com sucesso."
 msgstr "Regulation created with sucess"
 
-#: Controller/RegulacaoController.php:28
+#: Controller/RegulacaoController.php:33
 msgid "Ocorreu um erro ao criar o Regulacao."
-msgstr "Something as gone wrong while creating the Regulation"
+msgstr "Opps, something as gone wrong while creating the regulation"
 
-#: Controller/RegulacaoController.php:38
+#: Controller/RegulacaoController.php:43
 msgid "O regulamento foi atualizado."
-msgstr "Regulation sucessfully updated"
+msgstr "Regulation updated"
 
-#: Controller/RegulacaoController.php:41
-msgid "Seu artigo não pôde ser atualizado."
+#: Controller/RegulacaoController.php:46
+msgid "A regulação não pôde ser atualizado."
 msgstr "Can't update the regulation"
 
-#: Controller/RegulacaoController.php:52
+#: Controller/RegulacaoController.php:57
 msgid "O regulamento com id: {0} foi apagado."
-msgstr "The regulation with id {0} as been deleted"
+msgstr "The regulation with id: {0} as been deleted"
 
 #: Controller/UtilizadorController.php:50
 msgid "Utilizador criado com sucesso."
-msgstr "User created with suces"
+msgstr "User sucessfully created"
 
 #: Controller/UtilizadorController.php:53
 msgid "Ocorreu um erro ao criar o utilizador."
-msgstr "Something as gone wrong while creating the User"
+msgstr "Opps, something as gone wrong while creating the user"
 
 #: Controller/UtilizadorController.php:63
 msgid "O Utilizador foi atualizado."
-msgstr "User Updated"
+msgstr "User updated"
 
 #: Controller/UtilizadorController.php:66
 msgid "O Utilizador não pôde ser atualizado."
-msgstr "Cant update the user"
+msgstr "Can't update the user"
 
 #: Controller/UtilizadorController.php:77
 msgid "O utilizador com id: {0} foi apagado."
-msgstr "User with id: {0} as been deleted"
+msgstr "The user with id: {0} as been deleted"
 
-#: Controller/webgrafiacontroller.php:25
+#: Controller/webgrafiacontroller.php:32
 msgid "Link criado com sucesso."
 msgstr "Link created with sucess"
 
-#: Controller/webgrafiacontroller.php:28
+#: Controller/webgrafiacontroller.php:35
 msgid "Ocorreu um erro ao criar o link."
-msgstr "Something as gone wrong while creating the link"
+msgstr "Opps, something as gone wrong while creating the link"
 
-#: Controller/webgrafiacontroller.php:38
+#: Controller/webgrafiacontroller.php:45
 msgid "O link foi atualizado."
 msgstr "Link as been updated"
 
-#: Controller/webgrafiacontroller.php:41
+#: Controller/webgrafiacontroller.php:48
 msgid "O link não pôde ser atualizado."
 msgstr "Can't update the link"
 
-#: Controller/webgrafiacontroller.php:52
+#: Controller/webgrafiacontroller.php:59
 msgid "O link com id: {0} foi apagado."
 msgstr "The link with id: {0} as been deleted"
 
+
 #: Template/Contrato/add.ctp:2
 msgid "Criar empresa"
-msgstr "Create contract"
-
-#: Template/Utilizador/add.ctp:10
-msgid "Salvar Utilizador"
-msgstr "Save User"
+msgstr "Create company"
 
 #: Template/Contrato/add.ctp:11
 msgid "Salvar Contracto"
-msgstr "Save Contract"
-
-#: Template/Empresa/edit.ctp:9
-msgid "Guardar empresa"
-msgstr "Save Company"
+msgstr "Save company"
 
 #: Template/Contrato/edit.ctp:9
 msgid "Guardar contracto"
-msgstr "Save Contract"
+msgstr "Save contract"
 
 #: Template/Contrato/index.ctp:2
 msgid "Contrato:"
-msgstr "Contract"
+msgstr "Contract:"
+
+#: Template/Contrato/index.ctp:3
+msgid "Adicionar contrato"
+msgstr "Add contract"
+
+#: Template/Contrato/index.ctp:7
+msgid "ID Contracto"
+msgstr "Contract ID"
+
+#: Template/Contrato/index.ctp:8
+#: Template/Imagens/index.ctp:12
+#: Template/Utilizador/index.ctp:7
+msgid "ID utilizador"
+msgstr "User ID"
+
+#: Template/Contrato/index.ctp:9
+#: Template/Empresa/index.ctp:7
+msgid "ID empresa"
+msgstr "Company ID"
+
+#: Template/Contrato/index.ctp:10
+msgid "ID regulação"
+msgstr "Regulation ID"
+
+#: Template/Contrato/index.ctp:11
+msgid "Descrição"
+msgstr "Description"
 
 #: Template/Contrato/index.ctp:12
+#: Template/Contrato/index.ctp:34
 #: Template/Empresa/index.ctp:11
+#: Template/Empresa/index.ctp:30
+#: Template/Utilizador/index.ctp:11
+#: Template/Utilizador/index.ctp:30
 #: Template/Webgrafia/index.ctp:11
+#: Template/Webgrafia/index.ctp:28
 msgid "Editar"
 msgstr "Edit"
 
 #: Template/Contrato/index.ctp:13
 #: Template/Empresa/index.ctp:12
+#: Template/Utilizador/index.ctp:12
 #: Template/Webgrafia/index.ctp:12
 msgid "Eliminar"
+msgstr "Delete"
+
+#: Template/Contrato/index.ctp:38
+#: Template/Empresa/index.ctp:34
+#: Template/Utilizador/index.ctp:34
+#: Template/Webgrafia/index.ctp:32
+msgid "Apagar"
 msgstr "Delete"
 
 #: Template/Contrato/index.ctp:48
@@ -157,7 +190,7 @@ msgstr "Delete"
 #: Template/Utilizador/index.ctp:44
 #: Template/Webgrafia/index.ctp:42
 msgid "Primeira"
-msgstr "First"
+msgstr "first"
 
 #: Template/Contrato/index.ctp:49
 #: Template/Empresa/index.ctp:45
@@ -185,6 +218,14 @@ msgstr "next"
 #: Template/Webgrafia/index.ctp:46
 msgid "ultima"
 msgstr "last"
+
+#: Template/Contrato/index.ctp:54
+#: Template/Empresa/index.ctp:50
+#: Template/Imagens/index.ctp:27
+#: Template/Utilizador/index.ctp:50
+#: Template/Webgrafia/index.ctp:48
+msgid "Pagina {{page}} de {{pages}}, mostrando {{current}} registos de {{count}} totais, desde o registe {{start}}, ate ao {{end}}"
+msgstr "Page {{page}} of {{pages}}, showing {{current}} registes of {{count}} total, since {{start}}, to {{end}}"
 
 #: Template/Contrato/view.ctp:4
 msgid "ID Utilizador:"
@@ -216,11 +257,11 @@ msgstr "Hour: "
 
 #: Template/Element/ultimos_contratos.ctp:6
 msgid "Ultimos"
-msgstr "Previous "
+msgstr "Last's"
 
 #: Template/Element/ultimos_contratos.ctp:6
 msgid "Contratos"
-msgstr " contracts"
+msgstr "Contracts"
 
 #: Template/Empresa/add.ctp:2
 msgid "Criar Empresa"
@@ -230,14 +271,48 @@ msgstr "Create Company"
 msgid "Salvar Empresa"
 msgstr "Save Company"
 
+#: Template/Empresa/edit.ctp:9
+msgid "Guardar empresa"
+msgstr "Save Company"
+
 #: Template/Empresa/index.ctp:2
 msgid "Empresas"
 msgstr "Company's"
 
+#: Template/Empresa/index.ctp:4
+msgid "Adicionar Empresa"
+msgstr "Add Company"
+
+#: Template/Regulacao/index.ctp:3
+msgid "Adicionar Regulação"
+msgstr "Add Regulation"
+
+#: Template/Regulacao/index.ctp:4
+msgid "Adicionar link"
+msgstr "Add link"
+
+#: Template/Empresa/index.ctp:8
+#: Template/Utilizador/index.ctp:8
+msgid "Nome"
+msgstr "Name"
+
+#: Template/Empresa/index.ctp:9
+msgid "web"
+msgstr ""
+
+#: Template/Empresa/index.ctp:10
+#: Template/Utilizador/index.ctp:10
+msgid "Email"
+msgstr "Mail"
+
+#: Template/Empresa/index.ctp:53
+msgid "Empresa"
+msgstr ""
+
 #: Template/Empresa/view.ctp:4
 #: Template/Utilizador/View.ctp:27
 msgid "Email:"
-msgstr "Mail:"
+msgstr ""
 
 #: Template/Empresa/view.ctp:5
 #: Template/Webgrafia/view.ctp:5
@@ -248,13 +323,21 @@ msgstr ""
 msgid "Imagens:"
 msgstr "Images:"
 
+#: Template/Imagens/index.ctp:3
+msgid "Adicionar Imagem"
+msgstr "Add Image"
+
+#: Template/Imagens/index.ctp:30
+msgid "Imagens"
+msgstr "Images"
+
 #: Template/Layout/default.ctp:51
 msgid "Regulações"
 msgstr "Regulations"
 
 #: Template/Layout/default.ctp:52
 msgid "Contrato"
-msgstr "Contract"
+msgstr "Contract's"
 
 #: Template/Layout/default.ctp:67
 msgid "Linguagem"
@@ -274,7 +357,7 @@ msgstr ""
 
 #: Template/Regulacao/add.ctp:2
 msgid "Criar regulação:"
-msgstr "Create regulation:"
+msgstr "Create regulation"
 
 #: Template/Regulacao/add.ctp:10
 msgid "Salvar Regulação"
@@ -283,7 +366,7 @@ msgstr "Save regulation"
 #: Template/Regulacao/edit.ctp:7
 #: Template/Regulacao/view.ctp:4
 msgid "Local efetivo:"
-msgstr "Efective place: "
+msgstr "Efective place:"
 
 #: Template/Regulacao/edit.ctp:8
 #: Template/Regulacao/view.ctp:5
@@ -300,11 +383,39 @@ msgstr "Regulations:"
 
 #: Template/Regulacao/index.ctp:11
 msgid "Editar:"
-msgstr "Edit"
+msgstr "Edit:"
 
 #: Template/Regulacao/index.ctp:12
 msgid "Eliminar:"
 msgstr "Delete:"
+
+#: Template/Regulacao/index.ctp:7
+msgid "ID regulacao"
+msgstr "Regulation ID"
+
+#: Template/Regulacao/index.ctp:7
+msgid "Designação"
+msgstr "Designation"
+
+#: Template/Regulacao/index.ctp:7
+msgid "Local efetivo"
+msgstr "Efective Place"
+
+#: Template/Regulacao/index.ctp:7
+msgid "Regulamento"
+msgstr "Regulation"
+
+#: Template/Webgrafia/index.ctp:8
+msgid "ID webgrafia"
+msgstr "Webgrafia ID"
+
+#: Template/Webgrafia/index.ctp:9
+msgid "Site"
+msgstr "Site"
+
+#: Template/Webgrafia/index.ctp:9
+msgid "Fonte"
+msgstr "Source"
 
 #: Template/Regulacao/view.ctp:6
 #: Template/Utilizador/View.ctp:29
@@ -318,7 +429,11 @@ msgstr "Age:"
 
 #: Template/Utilizador/View.ctp:37
 msgid "Upload foto"
-msgstr "Upload image"
+msgstr "Image upload"
+
+#: Template/Utilizador/add.ctp:10
+msgid "Salvar Utilizador"
+msgstr "Save user"
 
 #: Template/Utilizador/edit.ctp:8
 msgid "Guardar utilizador"
@@ -328,9 +443,25 @@ msgstr "Save user"
 msgid "Utilizadores"
 msgstr "Users"
 
+#: Template/Utilizador/index.ctp:3
+msgid "Adicionar Utilizador"
+msgstr "Add user"
+
+#: Template/Utilizador/index.ctp:9
+msgid "Idade"
+msgstr "Age"
+
+#: Template/Utilizador/index.ctp:36
+msgid "Deseja apagar o utilizador selecionado?"
+msgstr "Do you want to delete the selected user?"
+
+#: Template/Utilizador/index.ctp:53
+msgid "Utilizador"
+msgstr "User"
+
 #: Template/Utilizador/login.ctp:6
 msgid "Insira o nome de utilizador e Palavra-Passe "
-msgstr "Inser username and password"
+msgstr "Insert the name and password"
 
 #: Template/Utilizador/login.ctp:10
 msgid "Login"
@@ -351,6 +482,22 @@ msgstr "Save link"
 #: Template/Webgrafia/index.ctp:3
 msgid "Webgrafia"
 msgstr ""
+
+#: Template/Webgrafia/index.ctp:8
+msgid "id_webgrafia"
+msgstr ""
+
+#: Template/Webgrafia/index.ctp:9
+msgid "site"
+msgstr ""
+
+#: Template/Webgrafia/index.ctp:10
+msgid "fonte"
+msgstr ""
+
+#: Template/Webgrafia/index.ctp:34
+msgid "Deseja apagar o link selecionado?"
+msgstr "Do you wan't to delete the selected link?"
 
 #: Template/Webgrafia/view.ctp:4
 msgid "Fonte:"

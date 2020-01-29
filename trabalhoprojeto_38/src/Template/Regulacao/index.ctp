@@ -1,13 +1,13 @@
 <table style="content-align: right">
 <h1><?= __('Regulações:')?></h1>
-<p><?= $this->Html->link("Adicionar Regulação", ['action' => 'add']) ?></p>
+<p><?= $this->Html->link(__("Adicionar Regulação"), ['action' => 'add']) ?></p>
 </table>
 <table>
     <tr>
-        <?php echo'<th>'.$this->Paginator->sort('id_regulacao',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('designacao',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('local_efetivo',null,['direction' =>'desc']).'</th>';?>
-        <?php echo'<th>'.$this->Paginator->sort('regulamento',null,['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('id_utilizador',__('ID regulacao'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('designacao',__('Designação'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('local_efetivo',__('Local efetivo'),['direction' =>'desc']).'</th>';?>
+        <?php echo'<th>'.$this->Paginator->sort('regulamento',__('Regulamento'),['direction' =>'desc']).'</th>';?>
         <th><?= __('Editar:')?></th>
         <th><?= __('Eliminar:')?></th>
     </tr>
