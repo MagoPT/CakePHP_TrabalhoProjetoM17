@@ -4,17 +4,18 @@
 </table>
 <table>
     <?php foreach ($imagens as $imagem): //Lista todos os utilizadores existentes na tabela?>
-        <div style="display: table-row; width: 200px; float:left; margin-left: 25px; text-align: center">
+        <div style="display: table-row; border-style: solid; border-color: #1cc7ff; border-spacing: 5px; border-radius: 5px; max-height:300px; float:left; margin-left: 25px; text-align: center">
                 <?php
-                echo $this->Html->image('uploads/'.$imagem->path, [
-                    "alt" => "Brownies",
-                    'width'=>'200px',
-                    'height'=>'200px',
-                    'url' => ['controller' => 'Utilizador', 'action' => 'view', $imagem->utilizador->id_utilizador]
-                ]);
+                echo $this->Html->image('uploads/'.$imagem->path, array(
+                    'class' => 'image','alt' => 'Erro ao carregar imagem',
+                    'url' => ['controller' => 'Utilizador', 'action' => 'view', $imagem->utilizador->id_utilizador],
+                    'style' => 'max-height: 160px;max-width: 160px;margin: auto;'));
                 echo '<br>';
                 echo $imagem->has(__('id_utilizador')) ? $this->Html->link($imagem->utilizador->nome, ['controller' => 'Utilizador', 'action' => 'view', $imagem->utilizador->id_utilizador]) : '';
-
+                echo $this->Form->postLink(
+                    __('   Apagar'),
+                    ['action' => 'delete', $imagem->id],
+                    ['confirm' => 'Deseja apagar a imagem selecionada?']);
         ?>
         </div>
     <?php endforeach; ?>

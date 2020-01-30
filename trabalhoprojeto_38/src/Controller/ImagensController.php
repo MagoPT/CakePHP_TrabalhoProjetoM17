@@ -25,5 +25,15 @@ class ImagensController extends AppController{
         ];
         $this->set('imagens', $this->paginate());
     }
+    public function delete($id) //Eliminaçãp de um registo específico
+    {
+        $this->request->allowMethod(['post', 'delete']);
+
+        $imagem = $this->Imagens->get($id);
+        if ($this->Imagens->delete($imagem)) {
+            $this->Flash->success(__('A imagem com id: {0} foi apagada.', h($id)));
+            return $this->redirect(['action' => 'index']);
+        }
+    }
 
 }
